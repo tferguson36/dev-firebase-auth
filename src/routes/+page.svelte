@@ -6,7 +6,7 @@
     const firebaseConfig = {
         // Your firebase config here
     }
-    const app = initializeApp()
+    const app = initializeApp(firebaseConfig)
     const auth = getAuth(app)
 
     let email = ''
